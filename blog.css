@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family:impact;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: black;
+  }
+   /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: blue;
+  }
+  
+  .img1{
+    border: solid black 10px;
+    width: 500px;
+  }
+  
+  .img2{
+    border: solid black 10px;
+    width: 500px;  
+  }
+  
+  .img3{
+    border: solid black 10px;
+    width: 200px;
+  }
+  
+  .mortal{
+      color:white;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+   .goro{
+      position: relative;
+      left: 65px;
+  }
+  
+  .goro2{
+      font-weight: normal;
+  }
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {  
+    float: left;
+    width: 75%;
+  }
+   /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+   /* Add a card effect for articles */
+  .card {
+     background-color:blue;
+     padding: 20px;
+     margin-top: 20px;
+  }
+   /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  Nav{
+    border-radius: 30px;
+    color:white;
+    height: 10px;
+    width: 90%;
+    border: 5px solid white;
+    padding-bottom: 50px;
+    margin: 20px;
+    text-align:center;
+    display:inline-block;
+  position:absolute;
+  top:150px;
+  
+  z-index:3;
+  }
+  
+  
+  button {
+    margin-left:50px;
+    height: 50px;
+    width: 100px;
+    background-color:rgb(37, 112, 37);
+    border-radius: 10px;
+     }
+     .nav1{
+    text-decoration:none;
+    color: rgb(37, 112, 37);
+    border-radius: 50%;
+    }
+     .nav2{
+    text-decoration:none;
+    color: rgb(37, 112, 37);
+    }
+     .nav3{    text-decoration:none;
+    color: rgb(37, 112, 37);
+    }
+     .nav4{    text-decoration:none;
+    color: rgb(37, 112, 37);
+    }
+        .nav5{    text-decoration:none;
+     color: rgb(37, 112, 37);
+    }
+    .nav6{    text-decoration:none;
+        color: black;
+    }
+  
+  
+  /* unvisited link */
+  a:link {
+    color:black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black ;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  
+   /* Footer */
+  .footer {
+    padding: 2px;
+    text-align: center;
+    background: green;
+    margin-top: 20px;
+  }
+   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {  
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  

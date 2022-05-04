@@ -1,0 +1,167 @@
+header {
+    height: 30px;
+        width: 90%;
+        color: white;
+        padding: 50px;
+        margin: 20px;
+        text-align:center;
+ position:absolute;
+  z-index:3;
+  }
+ h1 {
+   bottom: 100%;
+ }
+ 
+ body {
+    background-color: rgb(98, 189, 98);
+    color:(86, 86, 160);
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+  #text1 {
+    border:5px solid white;
+    margin:50px;
+    height:300px;
+    width: 40%;
+    left: 5px;
+    border-radius: 10px;
+ padding-top: 20px;
+ padding-left: 20px;
+ position:absolute;
+ top: 350px;
+ right:830px;
+ z-index:1;
+ color: white;
+ font:impact;
+  }
+  .img2 {
+    border:5px solid white;
+   height: 325px;
+   width: 700px;
+
+    position:absolute;
+ top: 400px;
+ left:600px;
+ z-index:1;
+    }
+     #text2 {
+        border:5px solid white;
+        margin:50px;
+        height:200px;
+        width: 10%;
+        position:absolute;
+        top: 1100px;
+        z-index:1;
+        color: white;
+   
+     }
+     .img3 {
+        border:5px solid white;
+        display:inline-block; 
+       height: 300px;
+       width: 1-00x;
+        position:absolute;
+    top: 800px;
+    right: 800px;
+    z-index:1;
+    }
+     #text3 {
+        border:5px solid white;
+        margin:50px;
+        height:200px;
+        width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    position:absolute;
+    top: 1100px;
+    left:830px;
+    z-index:1;
+    color: white;
+    }
+     .img4 {
+        border:5px solid white;
+        display:inline-block; 
+       height: 300px;
+       width: 1000x;
+        position:absolute;
+    top: 800px;
+    left: 800px;
+    z-index:1;
+    }
+     Nav{
+        border-radius: 30px;
+        color:white;
+        height: 20px;
+        width: 90%;
+        border: 5px solid white;
+        padding:50px;
+        margin: 20px;
+        text-align:center;
+        display:inline-block;
+ position:absolute;
+ top:200px;
+  z-index:3;
+    }
+   div {
+       color:white;
+   }
+  button {
+    margin-left:50px;
+    height: 50px;
+    width: 100px;
+    background-color:black;
+    border-radius: 10px;
+  
+ }
+  .nav1{
+    text-decoration:none;
+    color: white;
+    border-radius: 50%;
+ }
+  .nav2{
+    text-decoration:none;
+    color: WHITE;
+ }
+  .nav3{    text-decoration:none;
+    color: white;
+  }
+  .nav4{    text-decoration:none;
+    color: white;
+ }
+  .nav5{    text-decoration:none;
+    color: white;
+ }
+ .nav6{    text-decoration:none;
+  color: black;
+ }
+     /* unvisited link */
+    a:link {
+        color: white;
+      }
+    
+      /* visited link */
+      a:visited {
+        color: white;
+      }
+    
+      /* mouse over link */
+      a:hover {
+        color: white;
+      }
+    
+      /* selected link */
+      a:active {
+        color: white;
+      }
+  
+      footer {
+          border: solid blue;
+          background-color: blue;
+          color: white;
+          font-size: 10px;
+          text-align: center;
+          position: absolute;
+          height: 50px;
+          width: 100%;
+        top:1200px;
+        }
+ 
